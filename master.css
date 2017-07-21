@@ -1,0 +1,100 @@
+
+.big_back{
+  background-image: url('/Users/abby/Desktop/html-css-assessment/img/main-bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.nav_bar{
+  width: 100%;
+  display: none;
+  justify-content: space-around;
+  margin-top: 50px;
+  color: white;
+  font-family: oswald;
+  font-size: 1.8rem;
+}
+
+.yup{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondary_nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.menu{
+  margin-right: 400px;
+  margin-top: 10px;
+}
+
+.right_nav{
+  margin-right: 30px;
+}
+
+.insta{
+  margin-left: 30px;
+}
+
+.other{
+  margin-left: 30px;
+}
+
+.toggle
+{
+  margin-top: 30px;
+  /*margin-left: 300px;*/
+}
+
+.main_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.words{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 190px;
+}
+
+.main_tag{
+  color: white;
+  font-family: oswald;
+  font-size: 6rem;
+  margin-top: 100px;
+}
+
+.under_tag{
+  color: white;
+  font-family: roboto;
+  font-size: 1.4rem;
+  font-weight: lighter;
+
+}
+.redbox{
+  background: red;
+  width: 100px;
+  height: 100px;
+}
+.down_arrow{
+  height: 40px;
+  width: 40px;
+  margin-top: 150px;
+}
+
+@media(min-width:700px) {
+    .nav_bar {
+        display: flex;
+    }
+    .yup{
+      display: none;
+    }
+}
